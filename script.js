@@ -103,6 +103,7 @@ function playMusic(){
     vid.classList.add("show");
     vid.style.display = "flex";
   }, 15000);
+  
   music = true;
 }
 
