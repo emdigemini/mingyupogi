@@ -1,3 +1,6 @@
+let music = false;
+let video = false;
+
 const mingming = [
   "/mingyu/1.jpg","/mingyu/2.jpg","/mingyu/3.jpg","/mingyu/4.jpg",
   "/mingyu/5.jpg","/mingyu/6.jpg","/mingyu/7.jpg","/mingyu/8.jpg",
@@ -88,6 +91,10 @@ function overlay(){
 function playMusic(){
   document.querySelector(".overlay").remove();
   const vid = document.querySelector(".svt-mp4");
+  const vidBox = document.querySelector(".svt");
+
+  if(music || video)
+    return;
 
   vid.play();
 
@@ -95,6 +102,7 @@ function playMusic(){
   svt.play();
   setTimeout(() => {
     vid.classList.add("show");
+    vid.style.display = "flex";
   }, 15000);
 }
 
