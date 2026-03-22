@@ -88,18 +88,22 @@ function overlay(){
 }
 
 function playMusic(){
+  const svt = new Audio("svt.mp3");
+
   document.querySelector(".overlay").remove();
   const vid = document.querySelector(".svt-mp4");
 
   if(music)
     return;
 
+  svt.play();
   vid.play();
 
   setTimeout(() => {
     vid.classList.add("show");
     vid.style.display = "flex";
   }, 15000);
+  music = true;
 }
 
 overlay();
