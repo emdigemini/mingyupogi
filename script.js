@@ -1,5 +1,4 @@
 let music = false;
-let video = false;
 
 const mingming = [
   "mingyu/1.jpg","mingyu/2.jpg","mingyu/3.jpg","mingyu/4.jpg",
@@ -91,15 +90,12 @@ function overlay(){
 function playMusic(){
   document.querySelector(".overlay").remove();
   const vid = document.querySelector(".svt-mp4");
-  const vidBox = document.querySelector(".svt");
 
-  if(music || video)
+  if(music)
     return;
 
   vid.play();
 
-  const svt = new Audio("svt.mp3");
-  svt.play();
   setTimeout(() => {
     vid.classList.add("show");
     vid.style.display = "flex";
