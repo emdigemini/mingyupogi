@@ -88,7 +88,6 @@ function overlay(){
 }
 
 function playMusic(){
-  const svt = new Audio("svt.mp3");
 
   document.querySelector(".overlay").remove();
   const vid = document.querySelector(".svt-mp4");
@@ -96,9 +95,6 @@ function playMusic(){
   if(music)
     return;
 
-  svt.play().catch(error => {
-    console.log("Audio play failed:", error);
-  });
   vid.muted = false;
   vid.volume = 1;
   vid.play();
