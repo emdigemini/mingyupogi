@@ -102,9 +102,50 @@ function playMusic(){
   setTimeout(() => {
     vid.classList.add("show");
     vid.style.display = "flex";
+    addGif();
   }, 15000);
-  
+
   music = true;
+}
+
+function addGif(){
+  document.body.insertAdjacentHTML("beforebegin", `
+      <img class="gif1" src="doggo1.gif">
+      <img class="gif2" src="cats1.gif">
+      <img class="gif3" src="cat2.gif">
+      <img class="gif4" src="mingyu-dance.gif">
+      <img class="gif5" src="doggo2.gif">
+  `); 
+  const gif1 = document.querySelector(".gif1");
+  const gif2 = document.querySelector(".gif2");
+  const gif3 = document.querySelector(".gif3");
+  const gif4 = document.querySelector(".gif4");
+  const gif5 = document.querySelector(".gif5");
+
+  setTimeout(() => {
+    gif1.style.opacity = 1;
+  }, 3000);
+
+  setTimeout(() => {
+    gif2.style.opacity = 1;
+  }, 5500);
+
+  setTimeout(() => {
+    gif3.style.opacity = 1;
+  }, 16000);
+
+  setTimeout(() => {
+    gif4.style.opacity = 1;
+  }, 13000);
+
+  setTimeout(() => {
+    gif5.style.opacity = 1;
+  }, 8000);
+
+  setTimeout(() => {
+    [gif1, gif2, gif3, gif4, gif5].forEach(g => g.classList.add("dance"));
+  }, 20000)
+
 }
 
 overlay();

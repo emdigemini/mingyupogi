@@ -134,3 +134,35 @@
     transform: translate(-50%, -50%) scale(1);
   }
 }
+
+.gif1, .gif2, .gif3, .gif4, .gif5 {
+  position: absolute;
+  height: 150px;
+  opacity: 0;
+}
+
+.gif1 {
+  top: 180px;
+  left: 60px;
+}
+
+.gif2 {
+  top: 630px;
+  left: 50px;
+}
+
+.gif3 {
+  height: 250px;
+  top: 750px;
+  left: 200px;
+}
+
+.gif4 {
+  top: 140px;
+  right: 20px;
+}
+
+.gif5 {
+  top: 630px;
+  right: 50px;
+}
