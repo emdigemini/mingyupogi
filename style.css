@@ -141,8 +141,16 @@
   opacity: 0;
 }
 
+.gif1.dance, 
+.gif2.dance, 
+.gif3.dance, 
+.gif4.dance, 
+.gif5.dance {
+  animation: dance 2s infinite alternate ease-in-out;
+} 
+
 .gif1 {
-  top: 180px;
+  top: 140px;
   left: 60px;
 }
 
