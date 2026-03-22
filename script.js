@@ -99,7 +99,8 @@ function playMusic(){
   svt.play().catch(error => {
     console.log("Audio play failed:", error);
   });
-  
+  vid.muted = false;
+  vid.volume = 1;
   vid.play();
 
   setTimeout(() => {
