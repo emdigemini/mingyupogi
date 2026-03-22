@@ -2,15 +2,15 @@ let music = false;
 let video = false;
 
 const mingming = [
-  "/mingyu/1.jpg","/mingyu/2.jpg","/mingyu/3.jpg","/mingyu/4.jpg",
-  "/mingyu/5.jpg","/mingyu/6.jpg","/mingyu/7.jpg","/mingyu/8.jpg",
-  "/mingyu/9.jpg","/mingyu/10.jpg","/mingyu/11.jpg","/mingyu/12.jpg",
-  "/mingyu/13.jpg","/mingyu/14.jpg","/mingyu/15.jpg","/mingyu/16.jpg",
-  "/mingyu/17.jpg","/mingyu/18.jpg","/mingyu/19.jpg","/mingyu/20.jpg",
-  "/mingyu/21.jpg","/mingyu/22.jpg","/mingyu/23.jpg","/mingyu/24.jpg",
-  "/mingyu/25.jpg","/mingyu/26.jpg","/mingyu/27.jpg","/mingyu/28.jpg",
-  "/mingyu/29.jpg","/mingyu/30.jpg","/mingyu/31.jpg","/mingyu/32.jpg",
-  "/mingyu/33.jpg"
+  "mingyu/1.jpg","mingyu/2.jpg","mingyu/3.jpg","mingyu/4.jpg",
+  "mingyu/5.jpg","mingyu/6.jpg","mingyu/7.jpg","mingyu/8.jpg",
+  "mingyu/9.jpg","mingyu/10.jpg","mingyu/11.jpg","mingyu/12.jpg",
+  "mingyu/13.jpg","mingyu/14.jpg","mingyu/15.jpg","mingyu/16.jpg",
+  "mingyu/17.jpg","mingyu/18.jpg","mingyu/19.jpg","mingyu/20.jpg",
+  "mingyu/21.jpg","mingyu/22.jpg","mingyu/23.jpg","mingyu/24.jpg",
+  "mingyu/25.jpg","mingyu/26.jpg","mingyu/27.jpg","mingyu/28.jpg",
+  "mingyu/29.jpg","mingyu/30.jpg","mingyu/31.jpg","mingyu/32.jpg",
+  "mingyu/33.jpg"
 ];
 
 const texts = [
